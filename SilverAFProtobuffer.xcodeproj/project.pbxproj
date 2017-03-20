@@ -13,6 +13,12 @@
 		4D0899981E712B7E00D1261C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0899961E712B7E00D1261C /* Main.storyboard */; };
 		4D08999A1E712B7E00D1261C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0899991E712B7E00D1261C /* Assets.xcassets */; };
 		4D08999D1E712B7E00D1261C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D08999B1E712B7E00D1261C /* LaunchScreen.storyboard */; };
+		4D13CF2B1E766B6F00365DA6 /* Common.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D13CF2A1E766B6F00365DA6 /* Common.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D2E26D21E7FD0180094263E /* SILManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E26CB1E7FD0180094263E /* SILManager.m */; };
+		4D2E26D31E7FD0180094263E /* SILManager+Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E26CD1E7FD0180094263E /* SILManager+Sample.m */; };
+		4D2E26D41E7FD0180094263E /* SILRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E26CF1E7FD0180094263E /* SILRequester.m */; };
+		4D2E26D51E7FD0180094263E /* SILDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E26D11E7FD0180094263E /* SILDataParser.m */; };
+		5FF9540782F41C38F2E7206E /* libPods-SilverAFProtobuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6657BEEDD0FAC8003710282A /* libPods-SilverAFProtobuffer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,21 @@
 		4D0899991E712B7E00D1261C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D08999C1E712B7E00D1261C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D08999E1E712B7E00D1261C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D13CF291E766B6F00365DA6 /* Common.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.pbobjc.h; sourceTree = "<group>"; };
+		4D13CF2A1E766B6F00365DA6 /* Common.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.pbobjc.m; sourceTree = "<group>"; };
+		4D2E26C81E7FD0180094263E /* SILProtobuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILProtobuffer.h; sourceTree = "<group>"; };
+		4D2E26C91E7FD0180094263E /* SILAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILAPI.h; sourceTree = "<group>"; };
+		4D2E26CA1E7FD0180094263E /* SILManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILManager.h; sourceTree = "<group>"; };
+		4D2E26CB1E7FD0180094263E /* SILManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILManager.m; sourceTree = "<group>"; };
+		4D2E26CC1E7FD0180094263E /* SILManager+Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SILManager+Sample.h"; sourceTree = "<group>"; };
+		4D2E26CD1E7FD0180094263E /* SILManager+Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SILManager+Sample.m"; sourceTree = "<group>"; };
+		4D2E26CE1E7FD0180094263E /* SILRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILRequester.h; sourceTree = "<group>"; };
+		4D2E26CF1E7FD0180094263E /* SILRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILRequester.m; sourceTree = "<group>"; };
+		4D2E26D01E7FD0180094263E /* SILDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILDataParser.h; sourceTree = "<group>"; };
+		4D2E26D11E7FD0180094263E /* SILDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILDataParser.m; sourceTree = "<group>"; };
+		6657BEEDD0FAC8003710282A /* libPods-SilverAFProtobuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SilverAFProtobuffer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0128CDDBC69FAC2D6F92E77 /* Pods-SilverAFProtobuffer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverAFProtobuffer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SilverAFProtobuffer/Pods-SilverAFProtobuffer.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C1C10182C9791C4301DA77 /* Pods-SilverAFProtobuffer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverAFProtobuffer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SilverAFProtobuffer/Pods-SilverAFProtobuffer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF9540782F41C38F2E7206E /* libPods-SilverAFProtobuffer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E8432604C64AA9B2DFC5F30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0128CDDBC69FAC2D6F92E77 /* Pods-SilverAFProtobuffer.debug.xcconfig */,
+				E7C1C10182C9791C4301DA77 /* Pods-SilverAFProtobuffer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D0899811E712B7D00D1261C = {
 			isa = PBXGroup;
 			children = (
 				4D08998C1E712B7D00D1261C /* SilverAFProtobuffer */,
 				4D08998B1E712B7D00D1261C /* Products */,
+				0E8432604C64AA9B2DFC5F30 /* Pods */,
+				DD59B09DAE2F8EFA33C00C84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +91,13 @@
 		4D08998C1E712B7D00D1261C /* SilverAFProtobuffer */ = {
 			isa = PBXGroup;
 			children = (
+				4D2E26B91E7FCB950094263E /* SilverProtobuffer */,
 				4D0899901E712B7E00D1261C /* AppDelegate.h */,
 				4D0899911E712B7E00D1261C /* AppDelegate.m */,
 				4D0899931E712B7E00D1261C /* ViewController.h */,
 				4D0899941E712B7E00D1261C /* ViewController.m */,
+				4D13CF291E766B6F00365DA6 /* Common.pbobjc.h */,
+				4D13CF2A1E766B6F00365DA6 /* Common.pbobjc.m */,
 				4D0899961E712B7E00D1261C /* Main.storyboard */,
 				4D0899991E712B7E00D1261C /* Assets.xcassets */,
 				4D08999B1E712B7E00D1261C /* LaunchScreen.storyboard */,
@@ -79,6 +115,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D2E26B91E7FCB950094263E /* SilverProtobuffer */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E26C81E7FD0180094263E /* SILProtobuffer.h */,
+				4D2E26C91E7FD0180094263E /* SILAPI.h */,
+				4D2E26CA1E7FD0180094263E /* SILManager.h */,
+				4D2E26CB1E7FD0180094263E /* SILManager.m */,
+				4D2E26CC1E7FD0180094263E /* SILManager+Sample.h */,
+				4D2E26CD1E7FD0180094263E /* SILManager+Sample.m */,
+				4D2E26CE1E7FD0180094263E /* SILRequester.h */,
+				4D2E26CF1E7FD0180094263E /* SILRequester.m */,
+				4D2E26D01E7FD0180094263E /* SILDataParser.h */,
+				4D2E26D11E7FD0180094263E /* SILDataParser.m */,
+			);
+			name = SilverProtobuffer;
+			sourceTree = "<group>";
+		};
+		DD59B09DAE2F8EFA33C00C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6657BEEDD0FAC8003710282A /* libPods-SilverAFProtobuffer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D0899A11E712B7E00D1261C /* Build configuration list for PBXNativeTarget "SilverAFProtobuffer" */;
 			buildPhases = (
+				3FD84391373204FBF2379422 /* [CP] Check Pods Manifest.lock */,
 				4D0899861E712B7D00D1261C /* Sources */,
 				4D0899871E712B7D00D1261C /* Frameworks */,
 				4D0899881E712B7D00D1261C /* Resources */,
+				19DF2149253174A56C0272C8 /* [CP] Embed Pods Frameworks */,
+				1BE6A17DEBE360C436BE5571 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +209,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DF2149253174A56C0272C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverAFProtobuffer/Pods-SilverAFProtobuffer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BE6A17DEBE360C436BE5571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverAFProtobuffer/Pods-SilverAFProtobuffer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD84391373204FBF2379422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D0899861E712B7D00D1261C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2E26D31E7FD0180094263E /* SILManager+Sample.m in Sources */,
+				4D2E26D51E7FD0180094263E /* SILDataParser.m in Sources */,
 				4D0899951E712B7E00D1261C /* ViewController.m in Sources */,
+				4D13CF2B1E766B6F00365DA6 /* Common.pbobjc.m in Sources */,
 				4D0899921E712B7E00D1261C /* AppDelegate.m in Sources */,
+				4D2E26D41E7FD0180094263E /* SILRequester.m in Sources */,
 				4D08998F1E712B7D00D1261C /* main.m in Sources */,
+				4D2E26D21E7FD0180094263E /* SILManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +387,7 @@
 		};
 		4D0899A21E712B7E00D1261C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0128CDDBC69FAC2D6F92E77 /* Pods-SilverAFProtobuffer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SilverAFProtobuffer/Info.plist;
@@ -281,6 +399,7 @@
 		};
 		4D0899A31E712B7E00D1261C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C1C10182C9791C4301DA77 /* Pods-SilverAFProtobuffer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SilverAFProtobuffer/Info.plist;

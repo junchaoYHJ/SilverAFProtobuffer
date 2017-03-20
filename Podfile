@@ -5,8 +5,7 @@ target 'SilverAFProtobuffer' do
 platform :ios, '8.0'
 project 'SilverAFProtobuffer.xcodeproj'
 
-    pod 'GoogleProtobuf', '~> 2.6.1'
-    #
+    pod 'SILProtoBuffer', '~> 1.0.1'
 
 end
 

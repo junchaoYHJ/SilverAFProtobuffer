@@ -1,0 +1,16 @@
+PODS:
+  - SILProtoBuffer (1.0.1):
+    - SILProtoBuffer/AFNetworking (= 1.0.1)
+    - SILProtoBuffer/GoogleProtobuf (= 1.0.1)
+  - SILProtoBuffer/AFNetworking (1.0.1)
+  - SILProtoBuffer/GoogleProtobuf (1.0.1)
+
+DEPENDENCIES:
+  - SILProtoBuffer (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  SILProtoBuffer: 1b0a6666eb964c3eb55ac0572024589c27e20b03
+
+PODFILE CHECKSUM: 5f41dd33ca54d08507584992dc0f233b60663b96
+
+COCOAPODS: 1.2.0
